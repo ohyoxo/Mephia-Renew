@@ -16,6 +16,7 @@
 |-------------|----------|------|------|
 | `DISCORD_TOKEN` | ✅ 必填 | Discord 账号 Token | 打开 Discord 网页版 → F12 → Network → 任意请求 → Headers → `authorization` |
 | `SESSION_ID` | ✅ 必填 | Discord Session ID | F12 → Network → 找一个 `interactions` 请求 → Payload → `session_id` |
+| `PRIVATE_REPO_TOKEN` | ✅ 必填 | GitHub PAT（有私库读取权限） `github_pat_xxxxxx` |
 | `GOST_PROXY` | ⭕ 可选 | 代理地址，不填则直连 | `socks5://user:pass@host:port` |
 | `TG_BOT` | ⭕ 可选 | Telegram 通知，不填则跳过 | `CHAT_ID,BOT_TOKEN` |
 
